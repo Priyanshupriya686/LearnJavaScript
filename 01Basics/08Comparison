@@ -1,0 +1,22 @@
+// Easy Comparisons of numbers
+// console.log(2>1)
+// console.log(2>=1)
+// console.log(2<1)
+// console.log(2==1)
+// console.log(2!=1)
+
+// Some complex cases How can we convert differen types of data types its not valid still js does it
+// console.log("2" > 1) //Output :true
+// console.log("02" > 1) // Output : True
+
+// console.log(null > 0) //False
+// console.log(null == 0) // false
+// console.log(null >= 0) // true
+// We should not do such comparisons cause predicted redult nhi hote hai
+// console.log(undefined==0)
+// console.log(undefined>0)
+// console.log(undefined<0)
+
+// Strict Check : check with triple === (in strict check sirf number hi nhi data type bhi check hota hai )
+
+console.log("2" === 2);
